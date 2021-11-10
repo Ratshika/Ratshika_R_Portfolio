@@ -1,6 +1,6 @@
 # Ratshika R
 
-## Project 1: Prediction of Customer Churn in Telecom Industry
+## [Project 1: Prediction of Customer Churn in Telecom Industry](https://github.com/Ratshika/telecom_churn_prediction)
 
 ### Project Overview
 - In the Indian Telecom Industry, approximately 80% of revenue comes from the top 20% customers who can be termed as high-value customers. Since the Telecom industry faces  an average of 15-25% annual churn rate, this project was built to help predict the customers who are at high risk of Churn, such that the Company can look into the requirements of the Customer earlier and provide them with offers and benefits in order to retain them.
