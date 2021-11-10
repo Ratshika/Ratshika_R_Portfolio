@@ -7,8 +7,22 @@
 - Since Prepaid Model is most commonly used in India, Customer churn was predicted based on their usage of Service. The Customer Activity for a span of 3 months was observed and analysed to find Patterns and was used to Predict if the Customer was going to churn or not.
 - As the dataset contained a large number of features to predict from, the feature size was reduced using dimensionality reduction technique - **PCA**.
 - The dataset was highly imbalanced, as the number of customers churning contributed to only 9% of the entire dataset. This was handled using **SMOTE** techniques.
-- The final model was able to predict **84%** of the customers who intended on churning.
-- A model for identifying the top features that led to customers churning was also built.
+- The final classification model built using Logistic Regressor was able to predict **84%** of the customers who intended on churning.
+- A Decision Tree based model was also built for identifying the top features that led to customers churning.
+
+
+## Project 2: Prediction of House Prices in Australia
+
+### Project Overview
+- This Project was built to help identify the Important factors/features that determine the price of the houses.
+- Ridge and Lasso Regression models were used to predict the price of the houses and around 90% of the prices were predicted accurately.
+
+
+## Project 3: Detemining the Credit Worthiness of a Customer
+
+### Project Overview
+- Loan Providers often have a tough time in determining wether a Customer can be provided with the loan he/she is requesting for. 
+- This Project was built to help them identify their Credit Worthiness from a scale of 0 to 100, based on which the Loan Providers can then take a decision.
 
 ### Markdown
 
