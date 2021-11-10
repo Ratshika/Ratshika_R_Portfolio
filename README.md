@@ -1,8 +1,12 @@
-## Welcome to GitHub Pages
+## Project 1: Prediction of Customer Churn in Telecom Industry
 
-You can use the [editor on GitHub](https://github.com/Ratshika/Ratshika_R_Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Project Overview
+- In the Indian Telecom Industry, approximately 80% of revenue comes from the top 20% customers who can be termed as high-value customers. Since the Telecom industry faces  an average of 15-25% annual churn rate, this project was built to help predict the customers who are at high risk of Churn, such that the Company can look into the requirements of the Customer earlier and provide them with offers and benefits in order to retain them.
+- Since Prepaid Model is most commonly used in India, Customer churn was predicted based on their usage of Service. The Customer Activity for a span of 3 months was observed and analysed to find Patterns and was used to Predict if the Customer was going to churn or not.
+- As the dataset contained a large number of features to predict from, the feature size was reduced using dimensionality reduction technique - **PCA**.
+- The dataset was highly imbalanced, as the number of customers churning contributed to only 9% of the entire dataset. This was handled using **SMOTE** techniques.
+- The final model was able to predict **84%** of the customers who intended on churning.
+- A model for identifying the top features that led to customers churning was also built.
 
 ### Markdown
 
@@ -27,10 +31,6 @@ Syntax highlighted code block
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ratshika/Ratshika_R_Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
