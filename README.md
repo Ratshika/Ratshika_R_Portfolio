@@ -1,6 +1,18 @@
 # Ratshika R
 
-## [Project 1: Prediction of Customer Churn in Telecom Industry](https://github.com/Ratshika/telecom_churn_prediction)
+## [Project 1: Melanoma Skin Cancer Detection](https://github.com/Ratshika/melanoma_detection)
+
+### Project Overview
+- Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths.
+- The model built can evaluate images and can be used to alert the dermatologists about the presence of melanoma, which has the potential to reduce a lot of manual effort needed in diagnosis.
+- The dataset used was put together by the **International Skin Imaging Collaboration (ISIC).**
+- Data imbalance was handled using the **Augmentor** python package.
+- Since the number of images for training was less, Data augmentation techniques such as **Flipping, Random Zoom, Contrast** was done to produce more similar images.
+- A custom CNN model was built with around **8 lakh** trainable parameters.
+- The model trained after artificial generation of image data had a great improvement in performance, both in training as well as validation dataset.
+- Training accuracy of **85%** and Validation accuracy of **80%** was achieved.
+
+## [Project 2: Prediction of Customer Churn in Telecom Industry](https://github.com/Ratshika/telecom_churn_prediction)
 
 ### Project Overview
 - In the Indian Telecom Industry, approximately 80% of revenue comes from the top 20% customers who can be termed as high-value customers. Since the Telecom industry faces  an average of 15-25% annual churn rate, this project was built to help predict the customers who are at high risk of Churn, such that the Company can look into the requirements of the Customer earlier and provide them with offers and benefits in order to retain them.
@@ -10,7 +22,7 @@
 - The final **Classification model** built using **Logistic Regressor** was able to predict **84%** of the customers who intended on churning.
 - A **Decision Tree based model** was also built for identifying the top features that led to customers churning.
 
-## [Project 2: Identification of Potential Customers from Website Visitors](https://github.com/Ratshika/potential_customer_identification)
+## [Project 3: Identification of Potential Customers from Website Visitors](https://github.com/Ratshika/potential_customer_identification)
 
 ### Project Overview
 - This Project was built to help Companies identify potential Customers who will actually buy their product apart from people just visiting their website.
@@ -19,7 +31,7 @@
 - The final model was built using **Logistic Regressor** which was able to assign a score from **0 to 100** to every person visiting the website, based on their potential to turn into a Customer. The Company can then use this score to concentrate more on potential Customers.
 - The model built was able to identify 81% of the Potential Customers accurately.
 
-## [Project 3: Prediction of House Prices in Australia](https://github.com/Ratshika/house_price_prediction)
+## [Project 4: Prediction of House Prices in Australia](https://github.com/Ratshika/house_price_prediction)
 
 ### Project Overview
 - This Project was built to help identify the Important factors/features that determine the price of houses in Australia.
@@ -27,7 +39,7 @@
 - An RMSE ( Root Mean Squared Error) of **0.114** was observed which is pretty low. 
 - Hyperparameter tuning was also done for the models to achieve the best possible outcome.
 
-## [Project 4: Prediction of Demand for Shared Bikes](https://github.com/Ratshika/shared_bikes_demand)
+## [Project 5: Prediction of Demand for Shared Bikes](https://github.com/Ratshika/shared_bikes_demand)
 
 ### Project Overview
 - In India, the Concept of Shared Bikes service through a largely autonomous system is becoming popular and Companies trying to invest in the Concept are looking to understand how the demand for such service varies in each city and what are the factors affecting these demands.
